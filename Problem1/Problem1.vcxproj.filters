@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem16.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem20.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem22.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem81.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem357.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem18.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem25.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem24.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem67.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem83.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem82.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem31.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="eulerProblem30.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="eulerHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem18.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem20.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem22.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem81.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem357.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem25.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem24.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem67.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem83.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem82.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem31.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eulerProblem30.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

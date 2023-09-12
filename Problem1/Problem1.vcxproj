@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{89C62DE5-916C-4EDE-8BDC-6AD3227621F5}</ProjectGuid>
+    <RootNamespace>EulerSolutions</RootNamespace>
+    <ProjectName>EulerSolutions</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="eulerHelpers.cpp" />
+    <ClCompile Include="eulerProblem1.cpp" />
+    <ClCompile Include="eulerProblem10.cpp" />
+    <ClCompile Include="eulerProblem11.cpp" />
+    <ClCompile Include="eulerProblem12.cpp" />
+    <ClCompile Include="eulerProblem13.cpp" />
+    <ClCompile Include="eulerProblem15.cpp" />
+    <ClCompile Include="eulerProblem16.cpp" />
+    <ClCompile Include="eulerProblem18.cpp" />
+    <ClCompile Include="eulerProblem2.cpp" />
+    <ClCompile Include="eulerProblem20.cpp" />
+    <ClCompile Include="eulerProblem22.cpp" />
+    <ClCompile Include="eulerProblem24.cpp" />
+    <ClCompile Include="eulerProblem25.cpp" />
+    <ClCompile Include="eulerProblem3.cpp" />
+    <ClCompile Include="eulerProblem30.cpp" />
+    <ClCompile Include="eulerProblem31.cpp" />
+    <ClCompile Include="eulerProblem357.cpp" />
+    <ClCompile Include="eulerProblem4.cpp" />
+    <ClCompile Include="eulerProblem5.cpp" />
+    <ClCompile Include="eulerProblem6.cpp" />
+    <ClCompile Include="eulerProblem67.cpp" />
+    <ClCompile Include="eulerProblem7.cpp" />
+    <ClCompile Include="eulerProblem8.cpp" />
+    <ClCompile Include="eulerProblem81.cpp" />
+    <ClCompile Include="eulerProblem82.cpp" />
+    <ClCompile Include="eulerProblem83.cpp" />
+    <ClCompile Include="eulerProblem9.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="eulerHelpers.h" />
+    <ClInclude Include="eulerProblem1.h" />
+    <ClInclude Include="eulerProblem10.h" />
+    <ClInclude Include="eulerProblem11.h" />
+    <ClInclude Include="eulerProblem12.h" />
+    <ClInclude Include="eulerProblem13.h" />
+    <ClInclude Include="eulerProblem15.h" />
+    <ClInclude Include="eulerProblem16.h" />
+    <ClInclude Include="eulerProblem18.h" />
+    <ClInclude Include="eulerProblem2.h" />
+    <ClInclude Include="eulerProblem20.h" />
+    <ClInclude Include="eulerProblem22.h" />
+    <ClInclude Include="eulerProblem24.h" />
+    <ClInclude Include="eulerProblem25.h" />
+    <ClInclude Include="eulerProblem3.h" />
+    <ClInclude Include="eulerProblem30.h" />
+    <ClInclude Include="eulerProblem31.h" />
+    <ClInclude Include="eulerProblem357.h" />
+    <ClInclude Include="eulerProblem4.h" />
+    <ClInclude Include="eulerProblem5.h" />
+    <ClInclude Include="eulerProblem6.h" />
+    <ClInclude Include="eulerProblem67.h" />
+    <ClInclude Include="eulerProblem7.h" />
+    <ClInclude Include="eulerProblem8.h" />
+    <ClInclude Include="eulerProblem81.h" />
+    <ClInclude Include="eulerProblem82.h" />
+    <ClInclude Include="eulerProblem83.h" />
+    <ClInclude Include="eulerProblem9.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
